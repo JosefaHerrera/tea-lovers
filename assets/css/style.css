@@ -72,6 +72,9 @@ Código Hexadecimal gris footer: #3B3B3B
 	line-height: 5rem;
 	text-transform: uppercase;
 }
+.color{
+	color: white;
+}
 
 /* Tipos de té */
 .te-diferentes{

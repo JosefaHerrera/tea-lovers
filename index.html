@@ -19,7 +19,44 @@
 	<!-- Sección Newsletter -->
 	<section class="color">
 		<div class="newsletter">
-			<button id="suscribirse">Suscríbete a nuestro newsletter</button>
+			<h1> ¿TE GUSTA EL TÉ ?</h1>
+			<!--_____Formulario______-->
+
+		<form name="myForm" action="" onsubmit="return ValidarCampos();">
+			<label for="Nombre Dueño"> Nombre:</label><br>
+			<input type="text" id="name" required><p>
+			<label for="apellido dueño"> Apellido:</label><br>
+			<input type="text" id="surname"><p>
+			<label for="Email"> Correo Electrónico:</label><br>
+			<input type="email" id="correito" required><p>
+			<label for="Dirección">Dirección:</label><br>
+			<input type="text" id="adress" required><p>
+			<label for="Teléfono">Teléfono:</label><br>
+			<input type="text" id="phone" required><p>
+
+			<!--________Selecciona un pack_______-->
+
+			<label for="">Té Favorito</label>
+			<center><select name="" id="pack" required>
+				<option value="">Escoje tu opción</option>
+				<option value="Té Negro">Té Negro</option>
+				<option value="Té Verde">Té Verde</option>
+				<option value="Té Rojo">Té Rojo</option>
+				<option value="Té Blanco">Té Blanco</option>
+				<option value="Té Oolong">Té Oolong</option>
+			</select></center><br>
+			<label for=""></label>
+			<input type="checkbox"> Quiero recibir muestras gratis ! 
+
+			<!-- _________-BOTON ENVIAR__________-->
+			<p></p>
+			<center><button type="submit" form="form1" id="boton" value="Submit" onclick="">Suscribete a nuestro Newsletter</button></center>
+		</form>
+	</section>
+	<section id="clientes">
+		<!-- Acá van los datos de ingresados por los clientes -->
+	</section>
+			
 		</div>
 	</section>
 	<!-- Sección Nuestra Pasión -->
